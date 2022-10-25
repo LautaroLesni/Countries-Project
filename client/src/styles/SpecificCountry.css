@@ -1,0 +1,164 @@
+.SpecificCountryCard {
+    background: rgb(57,91,100);
+    background: linear-gradient(3deg, rgba(57,91,100,1) 0%, rgba(165,201,202,1) 100%);
+    border: 1px solid #989c9a;
+    padding: 10px;
+    margin: 40px;
+    color: #E7F6F2;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 50px;;
+}
+.SpecificCardDIV{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #A5C9CA;
+height:fit-content;
+flex-direction: column;
+}
+.SpecificCardDIV img {
+    width: 800px;
+    height: 500px;
+}
+.ConoceTuPaisDIV{
+    background: rgb(153, 188, 198);
+    background: linear-gradient(0deg, rgba(57,91,100,1) 0%, rgba(165,201,202,1) 100%);
+    background-image:linear-gradient(to left,rgba(57,91,100, 0.8), rgba(165,201,202,0.63)), url(https://romaniatourstore.com/wp-content/uploads/2016/05/Romania-mountains.jpg);
+    background-position:0px -300px;
+    background-size:2000px;
+    display:flex;
+    justify-content: center;
+    height:50vh;
+    width:100%;
+    align-items: center;
+}
+.ConoceTuPaisDIV h3{
+    font-size: 100px;
+    color: #E7F6F2;
+}
+.SeparardorSpecificCountry{
+    height:70px;
+    background: rgb(57,91,100);
+    background: linear-gradient(0deg, rgba(57,91,100,1) 0%, rgba(165,201,202,1) 100%);
+    width:100%;
+    color: white;
+}
+.PrimerSeparador{
+    display:flex;
+    flex-direction: row;
+}
+.SegundoSeparador{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width:50%;
+
+}
+.SegundoSeparador h3 {
+    font-size: 50px;
+    color:#2C3333
+}
+.SegundoSeparador h4 {
+    font-size: 30px;
+}
+.SpecificCountryCard h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    width:50%;
+    color:#E7F6F2;
+    text-align: center;
+}
+.Actividadesheader{
+    font-size: 100px;
+    color: #e7f6f2;
+    text-shadow: #989c9a 1px;
+}
+.ActividadesDIV{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(5, 72, 72);
+    width:140vh;
+    margin-bottom: 100px;
+}
+.ActividadesCard{
+    background: rgb(57,91,100);
+    background: linear-gradient(0deg, rgba(57,91,100,1) 0%, rgba(165,201,202,1) 100%);
+    padding:20px;
+    margin:20px;
+    width: 250px;
+    height: fit-content;
+    border-radius: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ActividadesCard h2{
+    color: #e7f6f2;
+    font-size: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.SubSeparador{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+.SubSeparadorInside{
+    margin: 60px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #e7f6f2;
+    border-radius: 20px;
+    background-color: #A5C9CA;
+    padding:5px;
+    width:150%
+}
+.TitleAndImgDIV {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width:100%
+
+}
+.TitleAndImgDIV img{
+    margin-right:10px;
+    width:50px;
+    height: 50px;
+}
+.NoActivities {
+    color: #e7f6f2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    width:100%
+}
+.ActivitiesHalfDIV h2{
+    display: flex;
+    color:#2C3333;
+    margin:0px;
+    text-align: center;
+}
+.ActivitiesHalfDIV h3{
+    color:#e7f6f2;
+    text-align: center;
+}
+.InnerActivitieDIV{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:5px;
+    background-color: #A5C9CA;
+    margin:10px;
+    height: fit-content;
+}
+

@@ -1,0 +1,39 @@
+.CountryCard{
+    background: rgb(57,91,100);
+    background: linear-gradient(3deg, rgba(57,91,100,1) 0%, rgba(165,201,202,1) 100%);
+    border: 1px solid #989c9a;
+    padding: 20px;
+    padding-top:0px;
+    margin: 40px;
+    color: #E7F6F2;
+    border-radius: 20px;
+    height:350px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.CountryCard:hover{
+    width:310px;
+    transition-duration: 0.5s;
+}
+.CountryCard h2{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.CountryCard h3{
+    margin-top: 10px;
+    font-size:20px
+}
+.CountryCardImgDIV{
+display: flex;
+justify-content: center;
+}
+.CountryCardImg{
+height:200px;
+width:300px;
+padding-top:10px;
+
+}

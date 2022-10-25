@@ -1,0 +1,166 @@
+.FormPageDIV{
+    background-color: rgba(59, 137, 159, 0.558);
+    background-image:linear-gradient(to right,rgba(144, 98, 44, 0.4), rgba(117, 53, 19, 0.4)), url(https://romaniatourstore.com/wp-content/uploads/2016/05/Romania-mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.CreateActivityDIV{
+    background: rgb(153, 188, 198);
+    background: linear-gradient(0deg, rgba(57,91,100,1) 0%, rgba(165,201,202,1) 100%);
+    background-image:linear-gradient(to left,rgba(197, 158, 113, 0.2), rgba(117, 53, 19, 0.63)), url(https://romaniatourstore.com/wp-content/uploads/2016/05/Romania-mountains.jpg);
+    background-position:0px -300px;
+    background-size:2000px;
+    display:flex;
+    justify-content: center;
+    height:50vh;
+    width:100%;
+    align-items: center;
+
+}
+.CreateActivityDIV h3{
+    color: #E7F6F2;
+    font-size: 100px;
+}
+.ActivitySeparator{
+    height:70px;
+    background: rgb(84, 49, 9);
+    background: linear-gradient(0deg, rgba(84, 49, 9,1) 0%, rgb(214, 146, 68) 100%);
+    width:100%;
+    color: white;
+    
+}
+.FormularioDIV{
+border-radius: 40px;
+flex-direction: column;
+display: flex;
+justify-content: center;
+align-items:center;
+background-color: rgba(28, 14, 4, 0.7);
+height:fit-content;
+width: 800px;
+margin-top: 50px
+}
+
+
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px
+}
+.InputForm{
+font-size: 20px;
+border-radius: 20px;
+padding:10px;
+width:250px;
+
+}
+.InputNombreError{
+    font-size: 20px;
+    border-radius: 5px;
+    padding:5px;
+    border: 2px solid red;
+    width:250px;
+
+}
+.NormalButtonDIV{
+    display:flex;
+    flex-direction: row;
+}
+.NormalButtonForm{
+    font-size:20px;
+    padding:5px 15px;
+    background-color: rgb(25, 100, 100);
+    color:white;
+    
+}
+.contenedorpaises{
+    margin-top:10px;
+    border: 1px solid rgb(39, 39, 39);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(154, 154, 154, 0.5);
+    width:250px;
+    padding:20px
+}
+.PaisContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+    border:1px solid rgb(102, 102, 102);
+    border-radius: 5px;
+    background-color: rgb(25, 100, 100);
+    color:white;
+    margin:2px;
+}
+.PaisInside{
+padding: 5px;
+}
+input:focus{
+    outline:none;
+}
+.InputErrorMessage{
+    display:flex;
+    font-size: 14px;
+    color:red;
+}
+.InputFormsDIV{
+    margin-top:40px;
+    display:flex;
+    flex-direction: column;
+}
+.horas{
+    font-size: 25px;
+    margin-left: 2px;
+
+}
+.FormCreado{
+    margin-top: 10px;
+    text-align: center;
+    color:rgb(43, 149, 224);
+    font-size: 20px;
+
+}
+.SubmitButtonDIV{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:85%;
+    margin-bottom:0px
+}
+.SubmitButton{
+    background-color: rgb(25, 100, 100);
+    color: white;
+    font-size: 15px;
+    padding:15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 135px;
+}
+label{
+    color:aqua;
+    font-size: 20px;
+}
+span {
+    color:aqua
+}
+.Actividadheader{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+.DeleteButton{
+    background-color: rgb(169, 10, 10);
+    color: white;
+    border:1px solid black
+}
+.FormInRow{
+}

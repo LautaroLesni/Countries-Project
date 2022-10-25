@@ -1,0 +1,116 @@
+.Countrieslist{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: fit-content;
+    width:100%
+}
+.CountriesGeneralDIV{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(101,165,184,1) 35%, rgba(0,212,255,1) 100%);
+    color: #E7F6F2;
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://blog.hotgo.tv/wp-content/uploads/2020/10/avion.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat:no-repeat;
+    justify-content: flex-end;
+}
+.CountriesGeneralDIV h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+
+
+.CountriesSelectoresDIV {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: rgb(57,91,100);
+    background: linear-gradient(0deg, rgba(57,91,100,1) 0%, rgba(165,201,202,1) 100%);
+    width:auto;
+    height:70px;
+    margin-top: 0px;
+
+}
+.CountriesSelectores{
+    background-color: rgb(8, 79, 79, 0.5);
+    padding:10px 2px;
+    width:150px;
+    text-align: center;
+    color: #E7F6F2;
+    border: 1px solid #E7F6F2;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.PaginadoAbajo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PaginadoArriba{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+}
+.BotonPaginadoDIV{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:300px;
+}
+.CountriesYPaginado{
+    display: flex;
+    flex-direction: column;
+    background: rgb(57,91,100);
+    background: linear-gradient(0deg, rgba(57,91,100,1) 0%, rgba(165,201,202,1) 100%);
+}
+.SelectorDIV{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.SelectorDIV h3 {
+    margin-right: 15px;
+    color: #E7F6F2
+}
+.NoEncontrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.NoEncontrado img{
+    margin-top:20px;
+    width:512px;
+    height:512px;
+}
+.NoEncontrado h3{
+color: white;
+font-size: 60px;
+margin-bottom: 20px;
+}
+.SelectorDIV button img {
+    width:40;
+    height:40px; 
+}
+.SelectorDIV button{
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.SelectorDIV button:hover{
+    transition-duration: 0.5s;
+    transform: rotate(180deg)
+}

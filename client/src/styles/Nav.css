@@ -1,0 +1,33 @@
+.NavDiv{
+    background: rgb(44,51,51);
+    background: linear-gradient(0deg, rgba(44,51,51,1) 0%, rgba(57,91,100,1) 50%);
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    height:60px    
+
+}
+.Navstuff{
+    width:80%;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    color: #E7F6F2;
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: #E7F6F2;
+  }
+.botonesDiv{
+    display:flex;
+    flex-direction: row;
+    
+}
+.botonesDiv img {
+    width:30px;
+    height: 30px;
+    margin-right:8px;
+}
