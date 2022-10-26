@@ -161,4 +161,17 @@ flex-direction: column;
     margin:10px;
     height: fit-content;
 }
-
+.CreacActividadDiv{
+    display: flex;
+    justify-content: end;
+    margin-right:16%
+}
+.CreacActividadDiv button{
+    font-size: 40px;
+    padding:5px;
+    border-radius: 10px;
+    background-color:rgb(42, 106, 106);
+    color:#e7f6f2;
+    border:1px solid #e7f6f2;
+    cursor: pointer;
+}

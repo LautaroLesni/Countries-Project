@@ -73,7 +73,9 @@ const SpecificCountry = () => {
                     </div>
                     <h2>{pais.name}</h2>
                     <h2>{pais.Continente}</h2>
+                    <div className='CreacActividadDiv'>
                     <Link to={`/createactivity/${pais.ID}`}><button>Crear actividad</button></Link>
+                    </div>
                 </div>
                 <h1 className='Actividadesheader'>Actividades</h1>
                 <div className='ActividadesDIV'>
