@@ -10,7 +10,7 @@ export const REFRESH = 'REFRESH'
 const axios = require('axios')
 
 export const getCountries = () => dispatch => {
-        return axios.get('http://localhost:3001/countries')
+        return axios.get('/countries')
         .then(res => res.data)
         .then(res => {
             dispatch({
@@ -20,7 +20,7 @@ export const getCountries = () => dispatch => {
         })
     }
 export const getCountriesByID =  (id) => dispatch => {
-        return axios.get(`http://localhost:3001/countries/${id}`)
+        return axios.get(`/countries/${id}`)
         .then(res => res.data)
         .then(res => {
             dispatch({
@@ -30,7 +30,7 @@ export const getCountriesByID =  (id) => dispatch => {
         })
     }
 export const getCountriesByName =  (name) => dispatch => {
-        return axios.get(`http://localhost:3001/countries?nombre=${name}`)
+        return axios.get(`/countries?nombre=${name}`)
         .then(res => res.data)
         .then(res => {
             dispatch({
