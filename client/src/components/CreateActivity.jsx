@@ -71,7 +71,7 @@ const CreateActivity = () => {
         e.preventDefault();
         if (Object.keys(inputErrors).length === 0 && input.nombre){        
         let actividad = { ...input, [input.dificultad]: parseInt(input.dificultad) }
-        axios.post('http://localhost:3001/activities/', actividad)
+        axios.post('/activities/', actividad)
             .then(res => console.log('Creado exitosamente', res.data))
             setCreado({creado:true})
             setInput((prevState)=> ({...prevState, nombre:'', duracion:'', paises:[]}))
